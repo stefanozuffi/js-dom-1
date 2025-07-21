@@ -13,7 +13,7 @@ function switcher(lamp, btn) {
     }
 }
 
-
-
 light_btn.addEventListener('click', () => switcher(element, light_btn))
+
+
 

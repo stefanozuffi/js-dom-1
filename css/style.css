@@ -5,8 +5,37 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.c-flex {
+    display: flex;
+ }
+
+.c {
+    width: 75%;
+    margin: 20px auto;
+}
+
+/* HEADER */
+
+header {
+    background-color: bisque;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0 auto;
+    
+}
 
 
+/* MAIN */
+
+.main-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    background-color: bisque;
+}
 
 
 button {
@@ -15,5 +44,7 @@ button {
     color: white;
     border: 0;
     border-radius: 5px;
+    width: 100px;
+    margin-bottom:  20px;
 
 }
